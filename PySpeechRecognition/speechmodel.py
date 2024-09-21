@@ -17,4 +17,4 @@ with sr.Microphone() as source:
         # using google speech recognition
         print("Text: "+r.recognize_google(audio_text))
     except:
-         print("Indistinct chatter")
+        print("Indistinct chatter")
